@@ -18,14 +18,8 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.0"
-          - "8.1"
-          - "8.2"
-          - "8.3"
+          - "5.6"
         operating-system:
-          - "ubuntu-latest"
-          - "macos-latest"
-          - "debian-arm64-self-hosted"
           - "macos-14"
         extensions:
           - bcmath,bz2,calendar,ctype,curl,dom,exif,fileinfo,filter,ftp,gd,gmp,iconv,xml,mbstring,mbregex,mysqlnd,openssl,pcntl,pdo,pdo_mysql,pdo_sqlite,phar,posix,redis,session,simplexml,soap,sockets,sqlite3,tokenizer,xmlwriter,xmlreader,zlib,zip
