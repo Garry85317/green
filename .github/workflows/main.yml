@@ -18,11 +18,11 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "5.6"
+          - "7.4"
         operating-system:
           - "macos-14"
         extensions:
-          - bcmath,bz2,calendar,ctype,curl,dom,exif,fileinfo,filter,ftp,gd,gmp,iconv,xml,mbstring,mbregex,mysqlnd,openssl,pcntl,pdo,pdo_mysql,pdo_sqlite,phar,posix,redis,session,simplexml,soap,sockets,sqlite3,tokenizer,xmlwriter,xmlreader,zlib,zip
+          - zip
     
     steps:
       - name: "Checkout"
